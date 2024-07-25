@@ -11,11 +11,15 @@ export default {
         'list-black': '#3E495F',
         'hot-pink':'#FF6866',
         'green-food':'#86C27D',
-        'menu-green':'#7EBE74'
+        'menu-green':'#7EBE74',
+        'muted':'#A9A9A9',
+        'danger':'#FE3748',
+        'white':'#ffff'
       },
       fontFamily: {
         'WorkSansReg': ['WorkSansReg'],
-        'WorkSansBold':['WorkSansBold']
+        'WorkSansBold':['WorkSansBold'],
+        'WorkSansLight':["WorkSansLight"]
       },
     },
   },

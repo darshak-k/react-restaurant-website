@@ -9,7 +9,7 @@ const Menu = () => {
           <div className="lg:w-[100%] md:w-[80%] w-[100%]  rounded-full overflow-hidden">
             <img
               src={lunchBoy}
-              className=" h-[100%] object-cover w-[100%]  ovh"
+              className=" h-[100%] object-cover w-[100%]  "
               alt=""
             />
           </div>
