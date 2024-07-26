@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="py-4">
+    <section className="py-4 lg:py-10">
       <h1 className=" py-0 text-center  text-green-food font-WorkSansLight text-[36px] md:text-[60px] uppercase">
         CONTACTEZ-NOUS
       </h1>
@@ -71,7 +71,7 @@ const Contact = () => {
 
         <div className="py-2">
            <div className="mx-2">
-              <button className="  font-WorkSansBold uppercase text-white  bg-danger w-[100%] rounded border-[1px] py-2">Submit</button>
+              <button className="  font-WorkSansBold uppercase text-white  bg-danger w-[25%] rounded border-[1px] py-2">Send</button>
            </div>
         </div>
       </div>

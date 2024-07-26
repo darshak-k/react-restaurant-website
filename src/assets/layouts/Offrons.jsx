@@ -3,7 +3,7 @@ import foodBoy from '../images/food-boy.jpg'
 
 const Offrons = () => {
   return (
-    <section className="">
+    <section className="lg:my-11">
       <div className="flex lg:flex-row flex-col-reverse lg:w-[90%] w-[95%] py-8 m-auto">
         <div className="lg:w-[45%] w-[100%] lg:min-h-[390px] my-4 lg:my-0 flex flex-col justify-center">
           <h4 className=" py-2  text-center text-hot-pink font-WorkSansBold text-[14px] md:text-[18px] uppercase">

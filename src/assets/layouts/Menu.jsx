@@ -3,7 +3,7 @@ import lunchBoy from "../images/lunch-boy.jpg";
 
 const Menu = () => {
   return (
-    <section className="bg-warning mt-1  md:py-8 py-4">
+    <section className="bg-warning mt-1 lg:py-11  md:py-8 py-4">
       <div className="flex lg:flex-row flex-col-reverse   w-[95%] m-auto">
         <div className="lg:h-[390px] sm:h-[300px] md:h-[350px] h-[250px] lg:w-[50%] w-[100%] flex justify-center">
           <div className="lg:w-[100%] md:w-[80%] w-[100%]  rounded-full overflow-hidden">

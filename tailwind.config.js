@@ -14,7 +14,8 @@ export default {
         'menu-green':'#7EBE74',
         'muted':'#A9A9A9',
         'danger':'#FE3748',
-        'white':'#ffff'
+        'white':'#ffff',
+        'danger-warn':'#fed53f'
       },
       fontFamily: {
         'WorkSansReg': ['WorkSansReg'],

@@ -6,7 +6,7 @@ import viewthree from "../images/boythree.jpg"
 
 const ShowFood = () => {
   return (
-    <section className="bg-warning py-5">
+    <section className="bg-warning py-5 lg:py-11">
       <div className="w-[95%] m-auto">
         <div className="flex justify-center">
           <h4 className="text-center my-4 text-danger font-WorkSansBold text-[16px] md:text-[22px] uppercase">

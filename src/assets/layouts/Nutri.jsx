@@ -3,7 +3,7 @@ import foodLunch from "../images/food-lunch.jpeg";
 
 const Nutri = () => {
   return (
-    <div>
+    <div className="lg:my-11">
       <h4 className="text-center my-4 text-hot-pink font-WorkSansBold text-[14px] md:text-[18px] uppercase">
         Des repas équilibrés et nutritifs fournis chaque jour
       </h4>
