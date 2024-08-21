@@ -65,11 +65,12 @@ const Home = () => {
                 <div className="lg:w-[40%] md:w-[38%] w-100 md:h-[400px] my-2 md:my-0 flex   items-center">
                   <div className="flex flex-col">
                     <h2 className="xl:text-[53px] lg:text-[40px] text-[30px] uppercase leading-tight font-bold text-hot-pink">
-                      Catering for Your Daycare or School
+                    Traiteur pour votre Garderie ou
+                    votre école
                     </h2>
                     <a href="#" className="flex justify-center">
                       <button className="bg-btn-danger my-10 py-1 px-lg-20 px-5 rounded-full text-white font-WorkSansBoldItalic  text-[20px]">
-                        Get a Quote
+                      Obtenez une soumission
                       </button>
                     </a>
                   </div>
@@ -77,13 +78,11 @@ const Home = () => {
                 <div className="lg:w-[38%] md:w-[34%] w-[100%] md:h-[400px] my-2 md:my-0 flex  items-center">
                   <div className="flex flex-col">
                     <h2 className="lg:text-[25px] md:text-[20px]  text-[19px] uppercase leading-normal font-bold text-center text-hot-pink">
-                      Les Petits Appétits offers hot and nutritious meals, a
-                      variety of snacks, and a selection of beverages, all
-                      tailored to the needs of your institution.
+                    Les Petits Appétits vous propose des repas chauds et nutritifs, des collations variées et un choix de boissons, tous adaptés aux besoins de votre établissement.
                     </h2>
                     <a href="#" className="flex justify-center">
                       <button className="bg-btn-danger my-10 py-1 px-lg-20 px-5 rounded-full text-white font-WorkSansBoldItalic  text-[20px]">
-                        View the Menu
+                      Consulter  Le  Menu
                       </button>
                     </a>
                   </div>
