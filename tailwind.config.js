@@ -15,12 +15,14 @@ export default {
         'muted':'#A9A9A9',
         'danger':'#FE3748',
         'white':'#ffff',
-        'danger-warn':'#fed53f'
+        'danger-warn':'#fed53f',
+        'btn-danger':'#fc221c'
       },
       fontFamily: {
         'WorkSansReg': ['WorkSansReg'],
         'WorkSansBold':['WorkSansBold'],
-        'WorkSansLight':["WorkSansLight"]
+        'WorkSansLight':["WorkSansLight"],
+        'WorkSansBoldItalic':["WorkSansBoldItalic"]
       },
     },
   },
