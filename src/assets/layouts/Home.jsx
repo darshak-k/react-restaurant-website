@@ -68,7 +68,7 @@ const Home = () => {
                     Traiteur pour votre Garderie ou
                     votre école
                     </h2>
-                    <a href="#" className="flex justify-center">
+                    <a href="#" className="flex ms-4 justify-center md:justify-start">
                       <button className="bg-btn-danger my-10 py-1 px-lg-20 px-5 rounded-full text-white font-WorkSansBoldItalic  text-[20px]">
                       Obtenez une soumission
                       </button>
