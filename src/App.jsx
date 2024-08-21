@@ -8,6 +8,7 @@ import ShowFood from "./assets/layouts/ShowFood";
 import Contact from "./assets/layouts/Contact";
 import Goodness from "./assets/layouts/Goodness";
 import Footer from "./assets/layouts/Footer";
+import ChooesTips from "./assets/layouts/ChooesTips";
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
       <Menu/>
       <Offrons/>
       <ShowFood/>
+      <ChooesTips/>
       <Contact/>
       <Goodness/>
       <Footer/>

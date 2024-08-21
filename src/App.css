@@ -25,3 +25,16 @@
   font-weight: 700;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'itim';
+  src: url('./assets/fonts/Itim-Regular.ttf') format('truetype');
+  
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'lora';
+  src: url('./assets/fonts/Lora-Regular.ttf') format('truetype');
+  font-style: normal;
+}

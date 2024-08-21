@@ -16,13 +16,21 @@ export default {
         'danger':'#FE3748',
         'white':'#ffff',
         'danger-warn':'#fed53f',
-        'btn-danger':'#fc221c'
+        'btn-danger':'#fc221c',
+        'sky-line':'#00ADA8',
+        'listOne':'#FFA700',
+        'listTwo':'#00ADA8',
+        'listThree':'#FF4333',
+        'listFour':'#904CB8',
+        'listFive':'#4CB86C'
       },
       fontFamily: {
         'WorkSansReg': ['WorkSansReg'],
         'WorkSansBold':['WorkSansBold'],
         'WorkSansLight':["WorkSansLight"],
-        'WorkSansBoldItalic':["WorkSansBoldItalic"]
+        'WorkSansBoldItalic':["WorkSansBoldItalic"],
+        'lora':["lora"],
+        'itim':["itim"]
       },
     },
   },
