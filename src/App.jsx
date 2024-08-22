@@ -9,6 +9,7 @@ import Contact from "./assets/layouts/Contact";
 import Goodness from "./assets/layouts/Goodness";
 import Footer from "./assets/layouts/Footer";
 import ChooesTips from "./assets/layouts/ChooesTips";
+import FoodDish from "./assets/layouts/FoodDish";
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
       <Offrons/>
       <ShowFood/>
       <ChooesTips/>
+      <FoodDish/>
       <Contact/>
       <Goodness/>
       <Footer/>
