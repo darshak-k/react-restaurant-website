@@ -13,7 +13,7 @@ export default {
         'green-food':'#86C27D',
         'menu-green':'#7EBE74',
         'muted':'#A9A9A9',
-        'danger':'#FE3748',
+        'danger':'#E52D47',
         'white':'#ffff',
         'danger-warn':'#fed53f',
         'btn-danger':'#fc221c',
@@ -30,7 +30,8 @@ export default {
         'WorkSansLight':["WorkSansLight"],
         'WorkSansBoldItalic':["WorkSansBoldItalic"],
         'lora':["lora"],
-        'itim':["itim"]
+        'itim':["itim"],
+        'inter':["inter"]
       },
     },
   },
