@@ -25,7 +25,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="lg:w-[40%] md:w-[50%] w-[100%] m-auto my-9">
+      <div className="lg:w-[40%] md:w-[50%] w-[100%] m-auto my-5">
         <div className="flex py-2 flex-col">
           <label htmlFor="first_name">
             <h4 className="mx-2 py-1  text-danger  font-inter text-[14px] md:text-[16px] ">
