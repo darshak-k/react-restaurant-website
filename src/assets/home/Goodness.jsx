@@ -1,7 +1,9 @@
 import React from "react";
 import foodApple from "../images/food-apple.jpeg";
+import { useTranslation } from "react-i18next";
 
 const Goodness = () => {
+  const { t } = useTranslation();
   return (
     <section>
       <div className=" relative bg-danger-warn">
@@ -12,7 +14,7 @@ const Goodness = () => {
         />
         <div className=" absolute top-0 w-[100%] h-[100%] flex items-center justify-center ">
           <h3 className=" py-0 text-center md:w-[70%] w-[80%] text-white font-WorkSansLight text-[36px] md:text-[55px] uppercase">
-          Le Traiteur Qui Contribue au Succès des Enfants !
+             {t("laynignone")}
           </h3>
         </div>
       </div>
