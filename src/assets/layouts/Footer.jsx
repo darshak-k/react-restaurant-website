@@ -11,7 +11,6 @@ const Footer = () => {
         <div className="flex lg:flex-row flex-col">
           <div className="lg:w-1/4 px-2 w-[100%]">
 
-
           <div className="flex lg:justify-start  justify-center">
              <img src={footerlogo} className="lg:w-[80%] md:w-[30%] md:h-[30%] w-[40%] h-[40%] lg:h-[80%] object-cover" alt="" />
           </div> 
