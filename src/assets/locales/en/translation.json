@@ -21,5 +21,13 @@
     "layfourtwo"  : "We offer both permanent and temporary meal plans to suit your needs.",
     "layfourthree" :"We will work closely with you to ensure that the terms of your contract and meal plans are perfectly tailored to your needs and those of the children. Our account managers are dedicated to this task and ensure that everything aligns with your expectations.",
     "layfiveone" : "Nutritious, nourishing, and delicious menu",
-    "layfivetwo" : "View the Menu"
+    "layfivetwo" : "View the Menu",
+    "laysixone" : "Do you have any questions?",
+    "laysixtwo" : "Full Name",
+    "laysixfname" : "First Name",
+    "laysixlname" : "Last Name",
+    "laysixcall" : "Telephone",
+    "laysixemail" : "Email",
+    "laysixmessage" :  "Message",
+    "laysixbtnone" : "Send"
 }   

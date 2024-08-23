@@ -5,8 +5,10 @@ import listTwo from "../images/list-1.png";
 import listThree from "../images/list-2.png";
 import listFour from "../images/list-3.png";
 import listFive from "../images/list-4.png";
+import { useTranslation } from "react-i18next";
 
 const ChooesTips = () => {
+  const { t } = useTranslation();
   return (
     <section className="py-10">
       <div className="w-[85%] m-auto">
