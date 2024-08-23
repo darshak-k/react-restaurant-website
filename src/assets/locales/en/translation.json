@@ -29,5 +29,12 @@
     "laysixcall" : "Telephone",
     "laysixemail" : "Email",
     "laysixmessage" :  "Message",
-    "laysixbtnone" : "Send"
+    "laysixbtnone" : "Send",
+    "laysevenone" : "Why choose Les Petits Appétits?",
+    "layseventwo" : "Fresh, high-quality ingredients",
+    "layseventhree" : "Varied menus approved by a nutritionist",
+    "laysevenfour" :"Appetizing and nutritious recipes",
+    "laysevenfive" : "Personalized and flexible service",
+    "laysevensix" : "Excellent value for money",
+    "layseven7" : "Get a quote"
 }   

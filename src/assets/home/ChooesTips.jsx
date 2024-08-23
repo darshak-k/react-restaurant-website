@@ -16,7 +16,7 @@ const ChooesTips = () => {
           {/* chooes text */}
           <div className="border-sky-line p-4 border-solid  border-[3px] ">
             <h1 className="xl:text-[30px] lg:text-[26px] text-[18px] font-['itim']">
-              Pourquoi choisir Les Petits Appétits ?
+              {t('laysevenone')}
             </h1>
           </div>
           <div className="absolute bottom-[-13px]">
@@ -46,7 +46,7 @@ const ChooesTips = () => {
               </div>
               <div className="text-center w-[80%] md:w-[100%]  m-auto my-4 ">
                 <p className=" font-itim text-listOne lg:text-[22px] md:text-[20px] text-[16px] ">
-                  Des ingrédients frais de qualité
+                {t('layseventwo')}
                 </p>
               </div>
             </div>
@@ -69,7 +69,7 @@ const ChooesTips = () => {
               </div>
               <div className="text-center w-[80%] md:w-[100%]  m-auto my-4 ">
                 <p className=" font-itim text-listTwo lg:text-[22px] md:text-[20px] text-[16px] ">
-                  Des menus variés approuvés par une nutritionniste
+                {t('layseventhree')}
                 </p>
               </div>
             </div>
@@ -92,7 +92,7 @@ const ChooesTips = () => {
               </div>
               <div className="text-center w-[80%] md:w-[100%]  m-auto my-4 ">
                 <p className=" font-itim text-listThree lg:text-[22px] md:text-[20px] text-[16px] ">
-                  Des recettes appétissantes et nutritives
+                {t('laysevenfour')}
                 </p>
               </div>
             </div>
@@ -115,7 +115,7 @@ const ChooesTips = () => {
               </div>
               <div className="text-center w-[80%] md:w-[100%]  m-auto my-4 ">
                 <p className=" font-itim text-listFour lg:text-[22px] md:text-[20px] text-[16px] ">
-                  Un service personnalisé et flexible
+                {t('laysevenfive')}
                 </p>
               </div>
             </div>
@@ -138,7 +138,7 @@ const ChooesTips = () => {
               </div>
               <div className="text-center w-[80%] md:w-[100%]  m-auto my-4 ">
                 <p className=" font-itim text-listFive lg:text-[22px] md:text-[20px] text-[16px] ">
-                  Un excellent rapport qualité-prix
+                {t('laysevensix')}
                 </p>
               </div>
             </div>
@@ -149,7 +149,7 @@ const ChooesTips = () => {
         <div className="flex  justify-center">
           <a href="#">
             <button className="bg-btn-danger py-1 lg:px-12 px-6 rounded-full text-white font-WorkSansBoldItalic  lg:text-[20px] md:text-[18px] sm:text-[16px]">
-            Obtenez une soumission
+            {t('layseven7')}
             </button>
           </a>
         </div>
