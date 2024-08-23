@@ -2,14 +2,16 @@ import React from "react";
 import viewone from "../images/boytwo.jpg";
 import viewtwo from "../images/girlone.jpg";
 import viewthree from "../images/boythree.jpg";
+import { useTranslation } from "react-i18next";
 
 const ShowFood = () => {
+  const { t } = useTranslation();
   return (
     <section className="bg-warning py-5 lg:py-11">
       <div className="w-[95%] m-auto">
         <div className="flex justify-center">
-          <h4 className="text-center py-4 text-danger font-WorkSansBold text-[16px] md:text-[22px] uppercase">
-            Menu nutritif, nourrissant et succulent
+          <h4 className="text-center py-4 text-danger font-WorkSansBoldItalic text-[16px] md:text-[28px] ">
+          {t('layfiveone')}
           </h4>
         </div>
         <div className="flex flex-wrap my-7">
@@ -48,7 +50,7 @@ const ShowFood = () => {
 
         <a href="#" className="flex justify-center lg:pt-8 lg:pb-5 py-4">
           <button className="bg-btn-danger py-1 lg:px-16  md:px-10 px-5 rounded-full text-white font-WorkSansBoldItalic  lg:text-[20px] md:text-[18px] text-[16px]">
-          Consulter  Le  Menu
+          {t('layfivetwo')}
           </button>
         </a>
       </div>
