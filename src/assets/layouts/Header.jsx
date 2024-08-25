@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import i18n from "../../i18n.js";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const { t } = useTranslation();
@@ -18,20 +19,20 @@ const Header = () => {
         <div className="lg:w-[50%] w-[80%] m-auto">
           <ul className="flex justify-between flex-wrap font-custom w-100 py-2 list-unstyled font-WorkSansReg">
             <li className="md:mx-2 mx-1 ">
-              <a
+              <Link
                 className="py-2 uppercase text-list-black text-[14px] md:text-[18px] "
-                href="#"
+                to="/"
               >
                  {t("navitemone")}
-              </a>
+              </Link>
             </li>
             <li className="md:mx-2 mx-1">
-              <a
+              <Link
                 className="py-2 uppercase text-list-black text-[14px] md:text-[18px] "
-                href="#"
+                to="/school"
               >
               {t("navitemtwo")}
-              </a>
+              </Link>
             </li>
             <li className="md:mx-2 mx-1">
               <a
