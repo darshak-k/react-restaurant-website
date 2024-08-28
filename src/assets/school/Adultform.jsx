@@ -30,7 +30,7 @@ const Adultform = () => {
               </div>
             </div>
           </div>
-          <div className="py-10">
+          <div className="py-8">
             <h1 className="font-WorkSansBoldItalic md:text-[28px] text-[18px] text-center">
               How many children and adults do you need catering service for?
             </h1>
@@ -68,7 +68,7 @@ const Adultform = () => {
         <div className="flex justify-end md:my-4 my-9 mx-4">
           <Link to="/">
             <button className="px-7 font-WorkSansBoldItalic py-1 bg-white font-[24px]">
-              Next
+              NEXT
             </button>
           </Link>
         </div>
