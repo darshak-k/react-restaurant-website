@@ -7,7 +7,7 @@ const Adultform = () => {
   const { t } = useTranslation();
   return (
     <section className="bg-warning">
-      <div className="flex flex-col justify-between h-[calc(100vh-45px)]">
+      <div className="flex flex-col justify-between h-[100vh]">
         <div>
           <div className="flex justify-center my-10">
             <div className="rounded-full mx-5 bg-[#fea700] md:w-[100px] w-[80px]  md:h-[100px] h-[80px] p-2 ">
@@ -68,7 +68,7 @@ const Adultform = () => {
         </div>
 
         <div className="flex justify-end md:my-4 my-9 mx-4">
-          <Link to="/">
+          <Link to="/Quotstwostep">
             <button className="px-7 font-WorkSansBoldItalic py-1 bg-white font-[24px]">
               {t('next')}
             </button>

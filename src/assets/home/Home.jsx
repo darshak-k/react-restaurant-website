@@ -48,7 +48,7 @@ const Home = () => {
                     <h2 className="lg:text-[25px] md:text-[20px]  text-[19px] uppercase leading-normal font-bold text-center text-hot-pink">
                     {t('layoutonecontenttwo')}
                     </h2>
-                    <Link to="/" className="flex justify-center">
+                    <Link to="/Viewmenu" className="flex justify-center">
                       <button className="bg-btn-danger my-10 py-1 lg:px-10 px-5 rounded-full text-white font-WorkSansBoldItalic   lg:text-[20px] md:text-[18px] text-[16px] ">
                         {t("layoutonebtnthree")}
                       </button>

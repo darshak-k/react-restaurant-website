@@ -1,19 +1,16 @@
 import React from "react";
-import Adultform from "./Adultform";
-
 import Footer from "../layouts/Footer";
-
 import Aboutform from "./Aboutform";
+import Location from "./Location";
 
-const Quotes = () => {
-
+const Stepthree = () => {
   return (
     <div>
-      <Adultform />
+      <Location />
       <Aboutform />
       <Footer />
     </div>
   );
 };
 
-export default Quotes;
+export default Stepthree;

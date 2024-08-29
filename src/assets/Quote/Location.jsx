@@ -88,12 +88,12 @@ const Location = () => {
         </div>
 
         <div className="flex justify-between md:my-4 my-9 mx-4">
-          <Link to="/">
+          <Link to="/Quotstwostep">
             <button className="px-7 font-WorkSansBoldItalic py-1 bg-white font-[24px]">
               {t('back')}
             </button>
           </Link>
-          <Link to="/">
+          <Link to="/Quotsthreestep">
             <button className="px-7 font-WorkSansBoldItalic py-1 bg-white font-[24px]">
               {t('next')}
             </button>

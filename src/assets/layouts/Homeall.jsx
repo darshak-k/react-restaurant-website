@@ -9,11 +9,12 @@ import FoodDish from "../home/FoodDish";
 import Contact from "../home/Contact";
 import Goodness from "../home/Goodness";
 import Footer from "./Footer";
-
+import Header from "./Header";
 
 const HomeAll = () => {
   return (
     <div>
+      <Header />
       <Home />
       <Nutri />
       <Menu />
