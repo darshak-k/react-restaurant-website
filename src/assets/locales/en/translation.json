@@ -53,7 +53,22 @@
     "footersix" : "E:Contact",
     "footerseven" :  "Opening Hours",
     "footereight" : "Monday – Friday",
-    "footernine" : "Open: 6AM – 6PM"
-    
+    "footernine" : "Open: 6AM – 6PM",
+    "adultone" : "How many children and adults do you need catering service for?",
+    "adulttwo" : "Children",
+    "adultthree" : "Adults",
+    "next" :"NEXT",
+    "snaklistone" : "Apart from the main meal, would you like us to handle the preparation of snacks or desserts? (multiple answers possible)",
+    "Morning_Snack" : "Morning Snack",
+    "Afternoon_Snack" : "Afternoon Snack",
+    "Desserts" : "Desserts",
+    "none" : "None",
+    "back" : "BACK",
+    "loactionone" : "In which sector is your establishment located?",
+    "postal_code" : "POSTAL CODE",
+    "school_name" : "SCHOOL NAME",
+    "school_adress" : "SCHOOL ADRESS",
+    "about_you" : "About You",
+    "get_qoute" : "Get My Quote"
 
 }   

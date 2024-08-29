@@ -1,6 +1,7 @@
 import React from "react";
 import spoonicon from "../images/spoon-ico.jpg";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 const Aboutform = () => {
   const { t } = useTranslation();
@@ -11,7 +12,7 @@ const Aboutform = () => {
           {/* chooes text */}
           <div className="border-sky-line p-4 border-solid  border-[3px] ">
             <h1 className="xl:text-[30px] lg:text-[26px] text-[18px] font-['itim']">
-             About You
+            {t('about_you')}
             </h1>
           </div>
           <div className="absolute bottom-[-13px]">
@@ -112,10 +113,18 @@ const Aboutform = () => {
 
         <a href="#" className="flex justify-center">
           <button className="bg-btn-danger my-5 py-1 lg:px-16 px-5 rounded-full text-white font-WorkSansBoldItalic   lg:text-[20px] md:text-[18px] text-[16px] ">
-            Get My Quote
+            {t('get_qoute')}
           </button>
         </a>
       </div>
+      <div className="flex justify-start md:my-4 my-9 mx-4">
+          <Link to="/">
+            <button className="px-7 font-WorkSansBoldItalic py-1 bg-[#F99292]  font-[24px]">
+              {t('back')}
+            </button>
+          </Link>
+          
+        </div>
     </section>
   );
 };

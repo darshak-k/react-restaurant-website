@@ -5,8 +5,10 @@ import snacks from "../images/snacks.png";
 import choclate from "../images/choclate.png";
 import desart from "../images/desart.png";
 import none from "../images/null.png";
+import { useTranslation } from "react-i18next";
 
 const Snaklist = () => {
+  const { t } = useTranslation();
   return (
     <section className="bg-[#53d587]">
       <div className="flex flex-col justify-between min-h-[100vh]">
@@ -43,8 +45,7 @@ const Snaklist = () => {
           <div className="py-6">
             <div className=" flex justify-center">
               <h1 className="font-WorkSansBoldItalic  w-[80%] md:text-[28px] text-[18px] text-center">
-                Apart from the main meal, would you like us to handle the
-                preparation of snacks or desserts? (multiple answers possible)
+                {t('snaklistone')}
               </h1>
             </div>
             <div className="flex justify-center w-[100%] my-10 ">
@@ -77,7 +78,7 @@ const Snaklist = () => {
 
                 <div className="min-h[100px] flex justify-center">
                   <h2 className="w-[50%] text-center lg:text-[24px] md:text-[18] text-[14] font-WorkSansBoldItalic  py-4">
-                    Morning Snack
+                  {t('Morning_Snack')}
                   </h2>
                 </div>
               </div>
@@ -96,7 +97,7 @@ const Snaklist = () => {
 
                 <div className="flex min-h[100px] justify-center">
                   <h2 className="w-[50%] text-center lg:text-[24px] md:text-[18] text-[14] font-WorkSansBoldItalic  py-4">
-                    Afternoon Snack
+                    {t('Afternoon_Snack')}
                   </h2>
                 </div>
               </div>
@@ -116,7 +117,7 @@ const Snaklist = () => {
 
                 <div className="flex min-h[100px]  justify-center">
                   <h2 className="w-[50%] text-center lg:text-[24px] md:text-[18] text-[14] font-WorkSansBoldItalic  py-4">
-                    Desserts
+                    {t('Desserts')}
                   </h2>
                 </div>
               </div>
@@ -136,7 +137,7 @@ const Snaklist = () => {
 
                 <div className="flex min-h[100px] justify-center">
                   <h2 className="w-[50%] text-center lg:text-[24px] md:text-[18] text-[14] font-WorkSansBoldItalic  py-4">
-                    None
+                  {t('none')}
                   </h2>
                 </div>
               </div>
@@ -147,12 +148,12 @@ const Snaklist = () => {
         <div className="flex justify-between md:my-4 my-9 mx-4">
           <Link to="/">
             <button className="px-7 font-WorkSansBoldItalic py-1 bg-white font-[24px]">
-              BACK
+              {t('back')}
             </button>
           </Link>
           <Link to="/">
             <button className="px-7 font-WorkSansBoldItalic py-1 bg-white font-[24px]">
-              NEXT
+              {t('next')}
             </button>
           </Link>
         </div>

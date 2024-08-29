@@ -2,8 +2,10 @@ import React from "react";
 
 import spoonicon from "../images/cross-spoon.png";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const Location = () => {
+  const { t } = useTranslation();
   return (
     <section className="bg-[#f99292]">
       <div className="flex flex-col justify-between min-h-[100vh]">
@@ -40,7 +42,7 @@ const Location = () => {
           <div className="py-6">
             <div className=" flex justify-center">
               <h1 className="font-WorkSansBoldItalic  w-[80%] md:text-[28px] text-[18px] text-center">
-                In which sector is your establishment located?
+                {t('loactionone')}
               </h1>
             </div>
             <div className="flex justify-center w-[100%] my-10 ">
@@ -61,7 +63,7 @@ const Location = () => {
           <div className="flex justify-center">
             <div className="flex md:flex-row flex-col my-2">
               <h2 className="font-WorkSansBoldItalic font-[34px] w-[180px] ">
-                POSTAL CODE :
+                {t('postal_code')}
               </h2>
               <input type="text" className="md:mx-4 " />
             </div>
@@ -69,7 +71,7 @@ const Location = () => {
           <div className="flex justify-center">
             <div className="flex md:flex-row flex-col  my-2">
               <h2 className="font-WorkSansBoldItalic font-[34px] w-[180px] ">
-                SCHOOL NAME :
+              {t('school_name')}
               </h2>
               <input type="text" className="md:mx-4" />
             </div>
@@ -78,7 +80,7 @@ const Location = () => {
           <div className="flex justify-center">
             <div className="flex flex-col md:flex-row my-2">
               <h2 className="font-WorkSansBoldItalic font-[34px] w-[180px] ">
-                SCHOOL ADRESS :
+              {t('school_adress')}
               </h2>
               <input type="text" className="md:mx-4" />
             </div>
@@ -88,12 +90,12 @@ const Location = () => {
         <div className="flex justify-between md:my-4 my-9 mx-4">
           <Link to="/">
             <button className="px-7 font-WorkSansBoldItalic py-1 bg-white font-[24px]">
-              BACK
+              {t('back')}
             </button>
           </Link>
           <Link to="/">
             <button className="px-7 font-WorkSansBoldItalic py-1 bg-white font-[24px]">
-              NEXT
+              {t('next')}
             </button>
           </Link>
         </div>

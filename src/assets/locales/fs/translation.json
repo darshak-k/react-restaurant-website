@@ -52,5 +52,22 @@
     "footersix" : "E:Contact",
     "footerseven" :  "heures d ‘ouvertures",
     "footereight" : "Lundi – Vendredi",
-    "footernine" : "Open: 6AM – 6PM"
+    "footernine" : "Open: 6AM – 6PM",
+    "adultone" : "Pour combien d'enfants et d'adultes avez-vous besoin d'un service de restauration ?",
+    "adulttwo" : "Enfants",
+    "adultthree" : "Adultes",
+    "next" :"SUIVANTE",
+    "snaklistone" : "En dehors du repas principal, souhaitez-vous que nous nous occupions de la préparation de collations ou de desserts ? (plusieurs réponses possibles)",
+    "Morning_Snack" : "Collation du matin",
+    "Afternoon_Snack" : "Collation de l'après-midi",
+    "Desserts" : "Desserts",
+    "none" : "Aucune",
+    "back" : "DOS",
+    "loactionone" : "Dans quel secteur se situe votre établissement ?",
+    "postal_code" : "CODE POSTAL",
+    "school_name" : "NOM DE L'ÉCOLE",
+    "school_adress" : "ADRESSE DE L'ÉCOLE",
+    "about_you" : "Au propos de vous",
+    "get_qoute" : "Obtenir mon devis"
+
 }

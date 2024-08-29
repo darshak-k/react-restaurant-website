@@ -1,8 +1,10 @@
 import React from "react";
 import spoonicon from "../images/cross-spoon.png";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const Adultform = () => {
+  const { t } = useTranslation();
   return (
     <section className="bg-warning">
       <div className="flex flex-col justify-between h-[calc(100vh-45px)]">
@@ -32,7 +34,7 @@ const Adultform = () => {
           </div>
           <div className="py-8">
             <h1 className="font-WorkSansBoldItalic md:text-[28px] text-[18px] text-center">
-              How many children and adults do you need catering service for?
+              {t('adultone')}
             </h1>
             <div className="flex justify-center w-[100%] my-10 ">
               <div className="relative md:w-[40%] w-[60%] ">
@@ -49,7 +51,7 @@ const Adultform = () => {
             <div className="flex justify-center">
               <div className="flex my-2">
                 <h2 className="font-WorkSansBoldItalic font-[34px] w-[80px] ">
-                  Children :
+                  {t('adulttwo')}
                 </h2>
                 <input type="text" className="mx-4" />
               </div>
@@ -57,7 +59,7 @@ const Adultform = () => {
             <div className="flex justify-center">
               <div className="flex my-2">
                 <h2 className="font-WorkSansBoldItalic font-[34px] w-[80px]">
-                  Adults :
+                {t('adultthree')}
                 </h2>
                 <input type="text" className="mx-4" />
               </div>
@@ -68,7 +70,7 @@ const Adultform = () => {
         <div className="flex justify-end md:my-4 my-9 mx-4">
           <Link to="/">
             <button className="px-7 font-WorkSansBoldItalic py-1 bg-white font-[24px]">
-              NEXT
+              {t('next')}
             </button>
           </Link>
         </div>
