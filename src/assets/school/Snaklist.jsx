@@ -50,11 +50,11 @@ const Snaklist = () => {
             <div className="flex justify-center w-[100%] my-10 ">
               <div className="relative md:w-[40%] w-[60%] ">
                 <div className="w-[100%] border-white border-[2px] border-solid"></div>
-                <div className=" absolute md:-top-7 -top-4 flex justify-center w-[100%]">
+                <div className=" absolute lg:-top-7 md:-top-5 -top-4 flex justify-center w-[100%]">
                   <div className="bg-[#53d587]">
                     <img
                       src={spoonicon}
-                      className="bg-inherit bg-[#53d587]  md:h-[55px] lg:h-[35px] h-[28px] w-[28px] lg:w-[35px] md:w-[55px]"
+                      className="bg-inherit bg-[#53d587]  lg:h-[55px] md:h-[35px] h-[28px] w-[28px] md:w-[35px] lg:w-[55px]"
                       alt=""
                     />
                   </div>

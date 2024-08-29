@@ -29,7 +29,7 @@ const Header = () => {
             <li className="md:mx-2 mx-1">
               <Link
                 className="py-2 uppercase text-list-black text-[14px] md:text-[18px] "
-                to="/school"
+                to="/"
               >
               {t("navitemtwo")}
               </Link>

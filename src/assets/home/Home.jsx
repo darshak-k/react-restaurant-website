@@ -2,6 +2,7 @@ import React from "react";
 import sandwich from "../images/section-1.png";
 import foodLogo from "../images/food-logo.png";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const { t } = useTranslation();
@@ -32,14 +33,14 @@ const Home = () => {
                     <h2 className="xl:text-[53px] lg:text-[40px] text-[30px] uppercase leading-tight font-bold text-hot-pink">
                      {t('layoutonecontentone')}
                     </h2>
-                    <a
-                      href="#"
+                    <Link
+                      to="/Quotes"
                       className="flex ms-4 justify-center md:justify-start"
                     >
                       <button className="bg-btn-danger my-10 py-1 lg:px-10 px-5 rounded-full text-white font-WorkSansBoldItalic   lg:text-[20px] md:text-[18px] text-[16px]">
                         {t("layoutonebtntwo")}
                       </button>
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="lg:w-[38%] md:w-[34%] w-[100%] md:h-[400px] my-2 md:my-0 flex  items-center">
@@ -47,11 +48,11 @@ const Home = () => {
                     <h2 className="lg:text-[25px] md:text-[20px]  text-[19px] uppercase leading-normal font-bold text-center text-hot-pink">
                     {t('layoutonecontenttwo')}
                     </h2>
-                    <a href="#" className="flex justify-center">
+                    <Link to="/" className="flex justify-center">
                       <button className="bg-btn-danger my-10 py-1 lg:px-10 px-5 rounded-full text-white font-WorkSansBoldItalic   lg:text-[20px] md:text-[18px] text-[16px] ">
                         {t("layoutonebtnthree")}
                       </button>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
