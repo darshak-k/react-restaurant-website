@@ -123,7 +123,6 @@ const Aboutform = () => {
               {t('back')}
             </button>
           </Link>
-          
         </div>
     </section>
   );
