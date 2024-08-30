@@ -22,7 +22,10 @@ export default {
         'listTwo':'#00ADA8',
         'listThree':'#FF4333',
         'listFour':'#904CB8',
-        'listFive':'#4CB86C'
+        'listFive':'#4CB86C',
+        'menutitle' : '#e37f12',
+        'menudesc' : "#87888A"
+
       },
       fontFamily: {
         'WorkSansReg': ['WorkSansReg'],
@@ -31,8 +34,12 @@ export default {
         'WorkSansBoldItalic':["WorkSansBoldItalic"],
         'lora':["lora"],
         'itim':["itim"],
-        'inter':["inter"]
+        'inter':["inter"],
+        'BreeSerif':["BreeSerif"]
       },
+      backgroundImage: {
+        'menu-header': "url('./src/assets/images/menu.png')",
+      }
     },
   },
   plugins: [],
