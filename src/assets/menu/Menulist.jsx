@@ -14,7 +14,7 @@ const Menulist = () => {
       <div className=" mt-[-100px]  w-[100%]">
         <div className="w-[95%] m-auto   flex flex-wrap">
           {/* cards */}
-          <div className="xl:w-[20%] lg:w-[33.33%] md:w-[50%] w-[100%] xl:p-2 p-4">
+          <div className="xl:w-[20%] lg:w-[25%] md:w-[33.33%] sm:w-[50%] w-[100%] xl:p-2 p-4">
             <div className="p-4 bg-[#13A4A2] font-BreeSerif  h-[70px] flex flex-col justify-center">
               <h2 className="text-[25px] text-white">WEEK 1 </h2>
             </div>
@@ -62,7 +62,7 @@ const Menulist = () => {
             </div>
           </div>
           {/* cards */}
-          <div className="xl:w-[20%] lg:w-[33.33%] md:w-[50%] w-[100%] xl:p-2 p-4">
+          <div className="xl:w-[20%] lg:w-[25%] md:w-[33.33%] sm:w-[50%] w-[100%] xl:p-2 p-4">
             <div className="p-4 bg-[#13A4A2] font-BreeSerif  h-[70px] flex flex-col justify-center">
               <h2 className="text-[25px] text-white">WEEK 1 </h2>
             </div>
@@ -110,7 +110,7 @@ const Menulist = () => {
             </div>
           </div>
           {/* cards */}
-          <div className="xl:w-[20%] lg:w-[33.33%] md:w-[50%] w-[100%] xl:p-2 p-4">
+          <div className="xl:w-[20%] lg:w-[25%] md:w-[33.33%] sm:w-[50%] w-[100%] xl:p-2 p-4">
             <div className="p-4 bg-[#13A4A2] font-BreeSerif  h-[70px] flex flex-col justify-center">
               <h2 className="text-[25px] text-white">WEEK 1 </h2>
             </div>
@@ -158,7 +158,7 @@ const Menulist = () => {
             </div>
           </div>
           {/* cards */}
-          <div className="xl:w-[20%] lg:w-[33.33%] md:w-[50%] w-[100%] xl:p-2 p-4">
+          <div className="xl:w-[20%] lg:w-[25%] md:w-[33.33%] sm:w-[50%] w-[100%] xl:p-2 p-4">
             <div className="p-4 bg-[#13A4A2] font-BreeSerif  h-[70px] flex flex-col justify-center">
               <h2 className="text-[25px] text-white">WEEK 1 </h2>
             </div>
@@ -206,7 +206,7 @@ const Menulist = () => {
             </div>
           </div>
           {/* cards */}
-          <div className="xl:w-[20%] lg:w-[33.33%] md:w-[50%] w-[100%] xl:p-2 p-4">
+          <div className="xl:w-[20%] lg:w-[25%] md:w-[33.33%] sm:w-[50%] w-[100%] xl:p-2 p-4">
             <div className="p-4 bg-[#13A4A2] font-BreeSerif  h-[70px] flex flex-col justify-center">
               <h2 className="text-[25px] text-white">WEEK 1 </h2>
             </div>
@@ -254,7 +254,7 @@ const Menulist = () => {
             </div>
           </div>
           {/* cards */}
-          <div className="xl:w-[20%] lg:w-[33.33%] md:w-[50%] w-[100%] xl:p-2 p-4">
+          <div className="xl:w-[20%] lg:w-[25%] md:w-[33.33%] sm:w-[50%] w-[100%] xl:p-2 p-4">
             <div className="p-4 bg-[#13A4A2] font-BreeSerif  h-[70px] flex flex-col justify-center">
               <h2 className="text-[25px] text-white">WEEK 1 </h2>
             </div>
@@ -302,7 +302,7 @@ const Menulist = () => {
             </div>
           </div>
           {/* cards */}
-          <div className="xl:w-[20%] lg:w-[33.33%] md:w-[50%] w-[100%] xl:p-2 p-4">
+          <div className="xl:w-[20%] lg:w-[25%] md:w-[33.33%] sm:w-[50%] w-[100%] xl:p-2 p-4">
             <div className="p-4 bg-[#13A4A2] font-BreeSerif  h-[70px] flex flex-col justify-center">
               <h2 className="text-[25px] text-white">WEEK 1 </h2>
             </div>
@@ -350,7 +350,7 @@ const Menulist = () => {
             </div>
           </div>
           {/* cards */}
-          <div className="xl:w-[20%] lg:w-[33.33%] md:w-[50%] w-[100%] xl:p-2 p-4">
+          <div className="xl:w-[20%] lg:w-[25%] md:w-[33.33%] sm:w-[50%] w-[100%] xl:p-2 p-4">
             <div className="p-4 bg-[#13A4A2] font-BreeSerif  h-[70px] flex flex-col justify-center">
               <h2 className="text-[25px] text-white">WEEK 1 </h2>
             </div>
@@ -398,7 +398,7 @@ const Menulist = () => {
             </div>
           </div>
           {/* cards */}
-          <div className="xl:w-[20%] lg:w-[33.33%] md:w-[50%] w-[100%] xl:p-2 p-4">
+          <div className="xl:w-[20%] lg:w-[25%] md:w-[33.33%] sm:w-[50%] w-[100%] xl:p-2 p-4">
             <div className="p-4 bg-[#13A4A2] font-BreeSerif  h-[70px] flex flex-col justify-center">
               <h2 className="text-[25px] text-white">WEEK 1 </h2>
             </div>
@@ -446,7 +446,7 @@ const Menulist = () => {
             </div>
           </div>
           {/* cards */}
-          <div className="xl:w-[20%] lg:w-[33.33%] md:w-[50%] w-[100%] xl:p-2 p-4">
+          <div className="xl:w-[20%] lg:w-[25%] md:w-[33.33%] sm:w-[50%] w-[100%] xl:p-2 p-4">
             <div className="p-4 bg-[#13A4A2] font-BreeSerif  h-[70px] flex flex-col justify-center">
               <h2 className="text-[25px] text-white">WEEK 1 </h2>
             </div>
@@ -494,7 +494,7 @@ const Menulist = () => {
             </div>
           </div>
           {/* cards */}
-          <div className="xl:w-[20%] lg:w-[33.33%] md:w-[50%] w-[100%] xl:p-2 p-4">
+          <div className="xl:w-[20%] lg:w-[25%] md:w-[33.33%] sm:w-[50%] w-[100%] xl:p-2 p-4">
             <div className="p-4 bg-[#13A4A2] font-BreeSerif  h-[70px] flex flex-col justify-center">
               <h2 className="text-[25px] text-white">WEEK 1 </h2>
             </div>
@@ -542,7 +542,7 @@ const Menulist = () => {
             </div>
           </div>
           {/* cards */}
-          <div className="xl:w-[20%] lg:w-[33.33%] md:w-[50%] w-[100%] xl:p-2 p-4">
+          <div className="xl:w-[20%] lg:w-[25%] md:w-[33.33%] sm:w-[50%] w-[100%] xl:p-2 p-4">
             <div className="p-4 bg-[#13A4A2] font-BreeSerif  h-[70px] flex flex-col justify-center">
               <h2 className="text-[25px] text-white">WEEK 1 </h2>
             </div>
@@ -590,7 +590,7 @@ const Menulist = () => {
             </div>
           </div>
           {/* cards */}
-          <div className="xl:w-[20%] lg:w-[33.33%] md:w-[50%] w-[100%] xl:p-2 p-4">
+          <div className="xl:w-[20%] lg:w-[25%] md:w-[33.33%] sm:w-[50%] w-[100%] xl:p-2 p-4">
             <div className="p-4 bg-[#13A4A2] font-BreeSerif  h-[70px] flex flex-col justify-center">
               <h2 className="text-[25px] text-white">WEEK 1 </h2>
             </div>
@@ -638,7 +638,7 @@ const Menulist = () => {
             </div>
           </div>
           {/* cards */}
-          <div className="xl:w-[20%] lg:w-[33.33%] md:w-[50%] w-[100%] xl:p-2 p-4">
+          <div className="xl:w-[20%] lg:w-[25%] md:w-[33.33%] sm:w-[50%] w-[100%] xl:p-2 p-4">
             <div className="p-4 bg-[#13A4A2] font-BreeSerif  h-[70px] flex flex-col justify-center">
               <h2 className="text-[25px] text-white">WEEK 1 </h2>
             </div>
@@ -686,7 +686,7 @@ const Menulist = () => {
             </div>
           </div>
           {/* cards */}
-          <div className="xl:w-[20%] lg:w-[33.33%] md:w-[50%] w-[100%] xl:p-2 p-4">
+          <div className="xl:w-[20%] lg:w-[25%] md:w-[33.33%] sm:w-[50%] w-[100%] xl:p-2 p-4">
             <div className="p-4 bg-[#13A4A2] font-BreeSerif  h-[70px] flex flex-col justify-center">
               <h2 className="text-[25px] text-white">WEEK 1 </h2>
             </div>
@@ -734,7 +734,7 @@ const Menulist = () => {
             </div>
           </div>
           {/* cards */}
-          <div className="xl:w-[20%] lg:w-[33.33%] md:w-[50%] w-[100%] xl:p-2 p-4">
+          <div className="xl:w-[20%] lg:w-[25%] md:w-[33.33%] sm:w-[50%] w-[100%] xl:p-2 p-4">
             <div className="p-4 bg-[#13A4A2] font-BreeSerif  h-[70px] flex flex-col justify-center">
               <h2 className="text-[25px] text-white">WEEK 1 </h2>
             </div>
@@ -782,7 +782,7 @@ const Menulist = () => {
             </div>
           </div>
           {/* cards */}
-          <div className="xl:w-[20%] lg:w-[33.33%] md:w-[50%] w-[100%] xl:p-2 p-4">
+          <div className="xl:w-[20%] lg:w-[25%] md:w-[33.33%] sm:w-[50%] w-[100%] xl:p-2 p-4">
             <div className="p-4 bg-[#13A4A2] font-BreeSerif  h-[70px] flex flex-col justify-center">
               <h2 className="text-[25px] text-white">WEEK 1 </h2>
             </div>
@@ -830,7 +830,7 @@ const Menulist = () => {
             </div>
           </div>
           {/* cards */}
-          <div className="xl:w-[20%] lg:w-[33.33%] md:w-[50%] w-[100%] xl:p-2 p-4">
+          <div className="xl:w-[20%] lg:w-[25%] md:w-[33.33%] sm:w-[50%] w-[100%] xl:p-2 p-4">
             <div className="p-4 bg-[#13A4A2] font-BreeSerif  h-[70px] flex flex-col justify-center">
               <h2 className="text-[25px] text-white">WEEK 1 </h2>
             </div>
@@ -878,7 +878,7 @@ const Menulist = () => {
             </div>
           </div>
           {/* cards */}
-          <div className="xl:w-[20%] lg:w-[33.33%] md:w-[50%] w-[100%] xl:p-2 p-4">
+          <div className="xl:w-[20%] lg:w-[25%] md:w-[33.33%] sm:w-[50%] w-[100%] xl:p-2 p-4">
             <div className="p-4 bg-[#13A4A2] font-BreeSerif  h-[70px] flex flex-col justify-center">
               <h2 className="text-[25px] text-white">WEEK 1 </h2>
             </div>
@@ -926,7 +926,7 @@ const Menulist = () => {
             </div>
           </div>
           {/* cards */}
-          <div className="xl:w-[20%] lg:w-[33.33%] md:w-[50%] w-[100%] xl:p-2 p-4">
+          <div className="xl:w-[20%] lg:w-[25%] md:w-[33.33%] sm:w-[50%] w-[100%] xl:p-2 p-4">
             <div className="p-4 bg-[#13A4A2] font-BreeSerif  h-[70px] flex flex-col justify-center">
               <h2 className="text-[25px] text-white">WEEK 1 </h2>
             </div>
@@ -974,7 +974,7 @@ const Menulist = () => {
             </div>
           </div>
           {/* cards */}
-          <div className="xl:w-[20%] lg:w-[33.33%] md:w-[50%] w-[100%] xl:p-2 p-4">
+          <div className="xl:w-[20%] lg:w-[25%] md:w-[33.33%] sm:w-[50%] w-[100%] xl:p-2 p-4">
             <div className="p-4 bg-[#13A4A2] font-BreeSerif  h-[70px] flex flex-col justify-center">
               <h2 className="text-[25px] text-white">WEEK 1 </h2>
             </div>
@@ -1022,7 +1022,7 @@ const Menulist = () => {
             </div>
           </div>
           {/* cards */}
-          <div className="xl:w-[20%] lg:w-[33.33%] md:w-[50%] w-[100%] xl:p-2 p-4">
+          <div className="xl:w-[20%] lg:w-[25%] md:w-[33.33%] sm:w-[50%] w-[100%] xl:p-2 p-4">
             <div className="p-4 bg-[#13A4A2] font-BreeSerif  h-[70px] flex flex-col justify-center">
               <h2 className="text-[25px] text-white">WEEK 1 </h2>
             </div>
@@ -1070,7 +1070,7 @@ const Menulist = () => {
             </div>
           </div>
           {/* cards */}
-          <div className="xl:w-[20%] lg:w-[33.33%] md:w-[50%] w-[100%] xl:p-2 p-4">
+          <div className="xl:w-[20%] lg:w-[25%] md:w-[33.33%] sm:w-[50%] w-[100%] xl:p-2 p-4">
             <div className="p-4 bg-[#13A4A2] font-BreeSerif  h-[70px] flex flex-col justify-center">
               <h2 className="text-[25px] text-white">WEEK 1 </h2>
             </div>
@@ -1118,7 +1118,7 @@ const Menulist = () => {
             </div>
           </div>
           {/* cards */}
-          <div className="xl:w-[20%] lg:w-[33.33%] md:w-[50%] w-[100%] xl:p-2 p-4">
+          <div className="xl:w-[20%] lg:w-[25%] md:w-[33.33%] sm:w-[50%] w-[100%] xl:p-2 p-4">
             <div className="p-4 bg-[#13A4A2] font-BreeSerif  h-[70px] flex flex-col justify-center">
               <h2 className="text-[25px] text-white">WEEK 1 </h2>
             </div>
