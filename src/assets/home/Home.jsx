@@ -70,11 +70,11 @@ const Home = () => {
                 />
               </div>
               <div className="flex flex-col justify-center">
-                <a href="#">
+                <Link to="/Newaccount">
                   <button className="bg-btn-danger py-1 lg:px-12 px-5 rounded-full text-white font-WorkSansBoldItalic  lg:text-[20px] md:text-[18px] text-[16px]">
                     {t("layoutonebtnone")}
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -8,6 +8,7 @@ import { Route, Routes } from "react-router-dom";
 import Viewmenu from "./assets/menu/Viewmenu";
 import Stepthree from "./assets/Quote/Stepthree";
 import Steptwo from "./assets/Quote/Steptwo";
+import Newaccount from "./assets/Account/Newaccount";
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/Quotstwostep" element={ <Steptwo/> } />
         <Route path="/Quotsthreestep" element={ <Stepthree/> } />
         <Route path="/Viewmenu" element={<Viewmenu/>}/>
+        <Route path="/Newaccount" element={<Newaccount/>}></Route>
       </Routes>
     </div>
   );
