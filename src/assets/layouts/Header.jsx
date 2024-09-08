@@ -47,7 +47,7 @@ const Header = () => {
                 className="py-2 uppercase text-list-black text-[14px] md:text-[18px] "
                 href="#"
               >
-                {t("navitemtfoure")}
+                {t("navitemfoure")}
               </a>
             </li>
             <li className="md:mx-2 mx-1">
