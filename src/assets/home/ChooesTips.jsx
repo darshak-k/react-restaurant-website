@@ -6,6 +6,7 @@ import listThree from "../images/list-2.png";
 import listFour from "../images/list-3.png";
 import listFive from "../images/list-4.png";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 const ChooesTips = () => {
   const { t } = useTranslation();
@@ -147,11 +148,11 @@ const ChooesTips = () => {
 
         {/*  */}
         <div className="flex  justify-center">
-          <a href="#">
+          <Link to="/Quotes">
             <button className="bg-btn-danger py-1 lg:px-12 px-6 rounded-full text-white font-WorkSansBoldItalic  lg:text-[20px] md:text-[18px] sm:text-[16px]">
             {t('layseven7')}
             </button>
-          </a>
+          </Link>
         </div>
       </div>
     </section>
