@@ -35,12 +35,12 @@ const Header = () => {
               </Link>
             </li>
             <li className="md:mx-2 mx-1">
-              <a
+              <Link
                 className="py-2 uppercase text-list-black text-[14px] md:text-[18px] "
-                href="#"
+                to="/Viewmenu"
               >
                   {t("navitemthree")}
-              </a>
+              </Link>
             </li>
             <li className="md:mx-2 mx-1">
               <a
