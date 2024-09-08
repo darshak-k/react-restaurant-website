@@ -30,14 +30,14 @@ const Home = () => {
               <div className="flex md:flex-row flex-col md:justify-between">
                 <div className="lg:w-[40%] md:w-[38%] w-100 md:h-[400px] my-2 md:my-0 flex   items-center">
                   <div className="flex flex-col">
-                    <h2 className="xl:text-[53px] lg:text-[40px] text-[30px] uppercase leading-tight font-bold text-hot-pink">
+                    <h2 className="xl:text-[53px] lg:text-[40px] text-[30px] uppercase leading-tight font-bold text-hot-pink ">
                      {t('layoutonecontentone')}
                     </h2>
                     <Link
                       to="/Quotes"
                       className="flex ms-4 justify-center md:justify-start"
                     >
-                      <button className="bg-btn-danger my-10 py-1 lg:px-10 px-5 rounded-full text-white font-WorkSansBoldItalic   lg:text-[20px] md:text-[18px] text-[16px]">
+                      <button className="bg-btn-danger hover:opacity-100 opacity-85 my-10 py-1 lg:px-10 px-5 rounded-full text-white font-WorkSansBoldItalic   lg:text-[20px] md:text-[18px] text-[16px]">
                         {t("layoutonebtntwo")}
                       </button>
                     </Link>
@@ -49,7 +49,7 @@ const Home = () => {
                     {t('layoutonecontenttwo')}
                     </h2>
                     <Link to="/Viewmenu" className="flex justify-center">
-                      <button className="bg-btn-danger my-10 py-1 lg:px-10 px-5 rounded-full text-white font-WorkSansBoldItalic   lg:text-[20px] md:text-[18px] text-[16px] ">
+                      <button className="bg-btn-danger  opacity-85 hover:opacity-100  my-10 py-1 lg:px-10 px-5 rounded-full text-white font-WorkSansBoldItalic   lg:text-[20px] md:text-[18px] text-[16px] ">
                         {t("layoutonebtnthree")}
                       </button>
                     </Link>
@@ -71,7 +71,7 @@ const Home = () => {
               </div>
               <div className="flex flex-col justify-center">
                 <Link to="/Newaccount">
-                  <button className="bg-btn-danger py-1 lg:px-12 px-5 rounded-full text-white font-WorkSansBoldItalic  lg:text-[20px] md:text-[18px] text-[16px]">
+                  <button className="bg-btn-danger py-1 lg:px-12 px-5 rounded-full text-white font-WorkSansBoldItalic  lg:text-[20px] md:text-[18px] text-[16px] hover:opacity-100 opacity-85">
                     {t("layoutonebtnone")}
                   </button>
                 </Link>
