@@ -3,6 +3,7 @@ import viewone from "../images/boytwo.jpg";
 import viewtwo from "../images/girlone.jpg";
 import viewthree from "../images/boythree.jpg";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 const ShowFood = () => {
   const { t } = useTranslation();
@@ -48,11 +49,11 @@ const ShowFood = () => {
           </div>
         </div>
 
-        <a href="#" className="flex justify-center lg:pt-8 lg:pb-5 py-4">
+        <Link to="/Viewmenu" className="flex justify-center lg:pt-8 lg:pb-5 py-4">
           <button className="bg-btn-danger py-1 lg:px-16  md:px-10 px-5 rounded-full text-white font-WorkSansBoldItalic  lg:text-[20px] md:text-[18px] text-[16px]">
           {t('layfivetwo')}
           </button>
-        </a>
+        </Link>
       </div>
     </section>
   );
