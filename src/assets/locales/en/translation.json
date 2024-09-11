@@ -69,6 +69,22 @@
     "school_name" : "SCHOOL NAME",
     "school_adress" : "SCHOOL ADRESS",
     "about_you" : "Contact menu",
-    "get_qoute" : "Get My Quote"
+    "get_qoute" : "Get My Quote",
+    "menu_title" : "WEEK 1",
+    "menu_header":"MENU",
+    "title_one" : "Main Courses",
+    "title_two" : "Grilled Salmon with Rice",
+    "title_three" :"Grilled salmon served with steamed rice and sautéed vegetables",
+    "title_four" :"Herb-Roasted Chicken",
+    "title_five" : "Beverages",
+    "title_six" :"Water - 500ml",
+    "title_seven" : "Herb-roasted chicken with roasted potatoes and a side salad",
+    "title_eight" : "Oasis 100% juice",
+    "title_nine" : "Desserts & Sides",
+    "title_ten" : "Fresh Fruits",
+    "title_eleven" : "Cookies",
+    "ENJOY" : "ENJOY"
+    
+ 
 
 }   

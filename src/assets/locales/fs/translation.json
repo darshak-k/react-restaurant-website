@@ -68,6 +68,21 @@
     "school_name" : "NOM DE L'ÉCOLE",
     "school_adress" : "ADRESSE DE L'ÉCOLE",
     "about_you" : "menu de contact",
-    "get_qoute" : "Obtenir mon devis"
+    "get_qoute" : "Obtenir mon devis",
+    "menu_title" : "SEMAINE 1",
+    "menu_header":"MENU",
+    "title_one" : "Plats principaux",
+    "title_two" : "Saumon grillé avec du riz",
+    "title_three" : "Saumon grillé servi avec riz vapeur et légumes sautés",
+    "title_four" :"Poulet rôti aux herbes",
+    "title_five" : "Boissons",
+    "title_six" :"Eau - 500 ml",
+    "title_seven" : "Poulet rôti aux herbes avec pommes de terre rôties et salade d'accompagnement",
+    "title_eight" : "Jus 100% Oasis",
+    "title_nine" : "Desserts et accompagnements",
+    "title_ten" : "Fruits frais",
+    "title_eleven" : "Cookies",
+    "ENJOY" : "APPRÉCIER"
+
 
 }
