@@ -13,10 +13,10 @@ const Persnolac = () => {
     emailaddres: "",
     password: "",
     cnfpassword: "",
-    newtrums:false
-  }
+    newtrums: false,
+  };
   const [formData, setFormData] = useState(initialFormData);
-  const [error, setError] = useState("");
+  const [errors, setErrors] = useState("");
   const handleChange = (e) => {
     const { name, type, value, checked } = e.target;
 
@@ -27,14 +27,26 @@ const Persnolac = () => {
     }
   };
 
+  const validateForm = () => {
+    const newErrors = {};
+    if (!formData.password) newErrors.password = "Password is required.";
+    if (formData.password !== formData.cnfpassword)
+      newErrors.cnfpassword = "Passwords do not match.";
+    if (!formData.newtrums)
+      newErrors.newtrums = "You must agree to receive email alerts.";
+
+    setErrors(newErrors);
+    console.log(errors);
+    return Object.keys(newErrors).length === 0;
+  };
+
   const handleSubmit = async (e) => {
-    e.preventDefault(); 
-    if (!formData.newtrums) {
-      setError("You must agree to receive email alerts.");
-      return; 
+    e.preventDefault();
+    if (!validateForm()) {
+      return;
     }
 
-    setError("");
+    setErrors({});
     console.log(formData);
     setFormData(initialFormData);
   };
@@ -204,6 +216,7 @@ const Persnolac = () => {
                     <h1 className="font-bold font-WorkSansBoldItalic text-white text-[20px]">
                       Confirm your password*
                     </h1>
+                    
                   </div>
                   <div className="w-[50%]">
                     <input
@@ -215,17 +228,23 @@ const Persnolac = () => {
                     />
                   </div>
                 </div>
+                {errors.cnfpassword != "" && (
+                      <div className="text-[red] ml-4 text-end w-[100%]">
+                        {errors.cnfpassword}
+                      </div> // Display error message
+                    )}
               </div>
 
               <div className="flex justify-center my-4 w-[100%]">
                 <button className="bg-[#fc221c] px-8 rounded-full font-bold   text-white p-2">
                   SUBMIT
                 </button>
-                
               </div>
-              {error && (
-                  <div className="text-[red] ml-4 text-center w-[100%]">{error}</div> // Display error message
-                )}
+              {errors.newtrums != "" && (
+                <div className="text-[red] ml-4 text-center w-[100%]">
+                  {errors.newtrums}
+                </div> // Display error message
+              )}
             </form>
           </div>
           <div className="h-[100%] flex justify-center">
