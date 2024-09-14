@@ -83,7 +83,20 @@
     "title_nine" : "Desserts & Sides",
     "title_ten" : "Fresh Fruits",
     "title_eleven" : "Cookies",
-    "ENJOY" : "ENJOY"
+    "ENJOY" : "ENJOY",
+    "Language" :"Language",
+    "CREATE_YOUR_ACCOUNT" : "CREATE YOUR ACCOUNT",
+    "first_name":"First name",
+    "last_name" : "Last name",
+     "Address" : "Address",
+     "City":"City",
+     "Postal_code":"Postal code",
+     "DaytimePhone" : "Daytime Phone",
+     "Email_address" : "Email address",
+     "Password" :"Password",
+     "Confirm_your_password" : "Confirm your password",
+     "agreement" : "I agree to receive email alerts announcing the availability of a new menu.",
+     "SUBMIT":"SUBMIT"
     
  
 

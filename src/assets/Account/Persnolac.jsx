@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import fileup from "../images/addfile.png";
 import logofood from "../images/logo-ac.png";
+import { useTranslation } from "react-i18next";
+import i18n from "../../i18n.js";
 
 const Persnolac = () => {
   let initialFormData = {
@@ -15,6 +17,7 @@ const Persnolac = () => {
     cnfpassword: "",
     newtrums: false,
   };
+  const [currentLanguage, setCurrentLanguage] = useState ("en");
   const [formData, setFormData] = useState(initialFormData);
   const [errors, setErrors] = useState("");
   const handleChange = (e) => {
@@ -33,7 +36,7 @@ const Persnolac = () => {
     if (formData.password !== formData.cnfpassword)
       newErrors.cnfpassword = "Passwords do not match.";
     if (!formData.newtrums)
-      newErrors.newtrums = "You must agree to receive email alerts.";
+      newErrors.newtrums = "You must agree then submit.";
 
     setErrors(newErrors);
     console.log(errors);
@@ -51,21 +54,29 @@ const Persnolac = () => {
     setFormData(initialFormData);
   };
 
+  const { t } = useTranslation();
+
+
+  const changeLanguage = (lang) => {
+    i18n.changeLanguage(lang);
+    setCurrentLanguage(lang);
+  };
+
   return (
     <section>
       <section className="bg-[#ea673c] min-h-[100vh]">
         <div className="w-[80%] flex flex-col justify-between py-8   h-[100%] m-auto ">
           <div className="flex justify-between ">
             <h2 className="font-WorkSansBoldItalic text-4xl text-white ">
-              CREATE YOUR ACCOUNT
+              {t('CREATE_YOUR_ACCOUNT')}
             </h2>
 
             <h3 className="font-WorkSansBoldItalic text-2xl text-white ">
-              Language
+                 {t('Language')}
             </h3>
 
             <h3 className="font-WorkSansBoldItalic text-2xl text-white ">
-               French OR  English
+              <span className=" cursor-pointer" onClick={() => changeLanguage("fs")} > French</span> OR  <span className=" cursor-pointer " onClick={() => changeLanguage("en")} >English</span>
             </h3>
           </div>
           <div className="">
@@ -78,7 +89,7 @@ const Persnolac = () => {
                 <div className="flex my-8">
                   <div className="w-[50%] h-[30px] flex flex-col justify-center">
                     <h1 className="font-bold font-WorkSansBoldItalic text-white text-[20px]">
-                      First name*
+                      {t('first_name')}*
                     </h1>
                   </div>
                   <div className="w-[50%]">
@@ -96,7 +107,7 @@ const Persnolac = () => {
                 <div className="flex my-8">
                   <div className="w-[50%] h-[30px] flex flex-col justify-center">
                     <h1 className="font-bold font-WorkSansBoldItalic text-white text-[20px]">
-                      Last name*
+                      {t('last_name')}*
                     </h1>
                   </div>
                   <div className="w-[50%]">
@@ -113,7 +124,7 @@ const Persnolac = () => {
                 <div className="flex my-8">
                   <div className="w-[50%] h-[30px] flex flex-col justify-center">
                     <h1 className="font-bold font-WorkSansBoldItalic text-white text-[20px]">
-                      Address*
+                      {t('Address')}*
                     </h1>
                   </div>
                   <div className="w-[50%]">
@@ -130,7 +141,7 @@ const Persnolac = () => {
                 <div className="flex my-8">
                   <div className="w-[50%] h-[30px] flex flex-col justify-center">
                     <h1 className="font-bold font-WorkSansBoldItalic text-white text-[20px]">
-                      City*
+                      {t('City')}*
                     </h1>
                   </div>
                   <div className="w-[50%]">
@@ -147,7 +158,7 @@ const Persnolac = () => {
                 <div className="flex my-8">
                   <div className="w-[50%] h-[30px] flex flex-col justify-center">
                     <h1 className="font-bold font-WorkSansBoldItalic text-white text-[20px]">
-                      Postal code*
+                     {t('Postal_code')}*
                     </h1>
                   </div>
                   <div className="w-[50%]">
@@ -166,7 +177,7 @@ const Persnolac = () => {
                 <div className="flex my-8">
                   <div className="w-[50%] h-[30px] flex flex-col justify-center">
                     <h1 className="font-bold font-WorkSansBoldItalic text-white text-[20px]">
-                      DaytimePhone*
+                      {t('DaytimePhone')}*
                     </h1>
                   </div>
                   <div className="w-[50%]">
@@ -182,7 +193,7 @@ const Persnolac = () => {
                 <div className="flex my-8">
                   <div className="w-[50%] h-[30px] flex flex-col justify-center">
                     <h1 className="font-bold font-WorkSansBoldItalic text-white text-[20px]">
-                      Email address*
+                      {t('Email_address')}*
                     </h1>
                   </div>
                   <div className="w-[50%]">
@@ -198,7 +209,7 @@ const Persnolac = () => {
                 <div className="flex my-8">
                   <div className="w-[50%] h-[30px] flex flex-col justify-center">
                     <h1 className="font-bold font-WorkSansBoldItalic text-white text-[20px]">
-                      Password*
+                      {t('Password')}*
                     </h1>
                   </div>
                   <div className="w-[50%]">
@@ -214,7 +225,7 @@ const Persnolac = () => {
                 <div className="flex my-8">
                   <div className="w-[50%] h-[30px] flex flex-col justify-center">
                     <h1 className="font-bold font-WorkSansBoldItalic text-white text-[20px]">
-                      Confirm your password*
+                    {t('Confirm_your_password')}*
                     </h1>
                     
                   </div>
@@ -237,7 +248,7 @@ const Persnolac = () => {
 
               <div className="flex justify-center my-4 w-[100%]">
                 <button className="bg-[#fc221c] px-8 rounded-full font-bold   text-white p-2">
-                  SUBMIT
+                  {t('SUBMIT')}
                 </button>
               </div>
               {errors.newtrums != "" && (
@@ -261,8 +272,7 @@ const Persnolac = () => {
               </div>
               <div className="flex h-[100%] flex-col justify-center">
                 <h2 className="ms-4 font-WorkSansBoldItalic text-white text-2xl">
-                  I agree to receive email alerts announcing the availability of
-                  a new menu.
+                 {t('agreement')}
                 </h2>
               </div>
             </div>

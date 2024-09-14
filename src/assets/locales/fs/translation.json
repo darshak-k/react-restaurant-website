@@ -82,7 +82,20 @@
     "title_nine" : "Desserts et accompagnements",
     "title_ten" : "Fruits frais",
     "title_eleven" : "Cookies",
-    "ENJOY" : "APPRÉCIER"
+    "ENJOY" : "APPRÉCIER",
+    "Language" :"Langue",
+    "CREATE_YOUR_ACCOUNT" : "CRÉEZ VOTRE COMPTE",
+    "first_name" : "Prénom",
+    "last_name" : "Nom de famille",
+    "Address" : "Adresse",
+    "City" : "Ville",
+    "Postal_code" : "Code Postal",
+     "DaytimePhone" : "Téléphone en journée",
+     "Email_address" : "Adresse email",
+     "Password" : "Mot de passe",
+     "Confirm_your_password" : "Confirmez votre mot de passe",
+     "agreement":"J'accepte de recevoir des alertes par courriel annonçant la disponibilité d'un nouveau menu.",
+     "SUBMIT":"SOUMETTRE"
 
  
 }
