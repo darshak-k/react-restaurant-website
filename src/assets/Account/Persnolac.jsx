@@ -254,7 +254,8 @@ const Persnolac = () => {
                   type="checkbox"
                   className="w-[20px] h-[20px] outline-none"
                   name="newtrums"
-                  value={formData.newtrums}
+                  checked = {formData.newtrums}
+                
                   onChange={handleChange}
                 />
               </div>
