@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import dots from "../images/dots.png";
 import childadd from "../images/chidadd.png";
+import { t } from "i18next";
 
 const Childprofile = () => {
   let initialFormData = {
@@ -27,7 +28,7 @@ const Childprofile = () => {
           <div className="w-[80%] py-12 flex flex-col justify-between  h-[100vh] m-auto">
             <div>
               <h1 className="text-white text-3xl font-WorkSansBoldItalic">
-                CHILD PROFILE
+                {t('CHILD_PROFILE')}
               </h1>
             </div>
             <div>
@@ -37,7 +38,7 @@ const Childprofile = () => {
                     <div className="flex my-8">
                       <div className="w-[50%] h-[30px] flex flex-col justify-center">
                         <h1 className="font-bold font-WorkSansBoldItalic text-white text-[20px]">
-                          First name*
+                          {t('first_name')}*
                         </h1>
                       </div>
                       <div className="w-[50%]">
@@ -57,7 +58,7 @@ const Childprofile = () => {
                     <div className="flex my-8">
                       <div className="w-[50%] h-[30px] flex flex-col justify-center">
                         <h1 className="font-bold font-WorkSansBoldItalic text-white text-[20px]">
-                          Last name*
+                          {t('last_name')}*
                         </h1>
                       </div>
                       <div className="w-[50%]">
@@ -97,7 +98,7 @@ const Childprofile = () => {
                     <div className="flex my-8">
                       <div className="w-[50%] h-[30px] flex flex-col justify-center">
                         <h1 className="font-bold font-WorkSansBoldItalic text-center text-white text-[20px]">
-                          Group
+                          {t('Group')}
                         </h1>
                       </div>
                       <div className="w-[50%]">
@@ -119,7 +120,7 @@ const Childprofile = () => {
               <div className="flex">
                 <div>
                   <h2 className="font-WorkSansBold text-white text-2xl">
-                    ALLERGIES :
+                    {t('ALLERGIES')} :
                   </h2>
                 </div>
                 <div className="mx-4">
@@ -130,7 +131,7 @@ const Childprofile = () => {
                     <div className="flex flex-col justify-center">
                        
                       <h3 className="text-white text-[21px] font-WorkSansReg italic">
-                        Peanuts/ Nuts
+                        {t('Peanuts')}
                       </h3>
                     </div>
                   </div>
@@ -141,7 +142,7 @@ const Childprofile = () => {
                     <div className="flex flex-col justify-center">
                        
                       <h3 className="text-white text-[21px] font-WorkSansReg italic">
-                        eggs
+                        {t('eggs')}
                       </h3>
                     </div>
                   </div>
@@ -152,7 +153,7 @@ const Childprofile = () => {
                     <div className="flex flex-col justify-center">
                        
                       <h3 className="text-white text-[21px] font-WorkSansReg italic">
-                        Soya
+                        {t('Soya')}
                       </h3>
                     </div>
                   </div>
@@ -165,7 +166,7 @@ const Childprofile = () => {
                     <div className="flex flex-col justify-center">
                        
                       <h3 className="text-white text-[21px] font-WorkSansReg italic">
-                        Sea Food
+                        {t('Sea_Food')}
                       </h3>
                     </div>
                   </div>
@@ -176,7 +177,7 @@ const Childprofile = () => {
                     <div className="flex flex-col justify-center">
                        
                       <h3 className="text-white text-[21px] font-WorkSansReg italic">
-                        Sesame
+                        {t('Sesame')}
                       </h3>
                     </div>
                   </div>
@@ -187,7 +188,7 @@ const Childprofile = () => {
                     <div className="flex flex-col justify-center">
                        
                       <h3 className="text-white text-[21px] font-WorkSansReg italic">
-                        Lactose
+                        {t('Lactose')}
                       </h3>
                     </div>
                   </div>
@@ -195,7 +196,7 @@ const Childprofile = () => {
               </div>
               <div className="flex justify-center my-8 w-[100%]">
                 <button className="bg-[#fc221c] px-8 rounded-full font-bold   text-white p-2">
-                  SUBMIT
+                  {t('SUBMIT')}
                 </button>
               </div>
             </div>
@@ -208,39 +209,39 @@ const Childprofile = () => {
             <div className="flex justify-between">
               <div>
                 <h2 className="text-2xl font-WorkSansBoldItalic text-white">
-                  FULL NAME{" "}
+                  {t('FULL_NAME')}
                 </h2>
                 <h2 className="text-2xl font-WorkSansBoldItalic text-white">
-                  Adress*
+                  {t('Adress')}*
                 </h2>
                 <h2 className="text-2xl font-WorkSansBoldItalic text-white">
-                  Daytime phone*
+                  {t('Daytimephone')}*
                 </h2>
                 <h2 className="text-2xl font-WorkSansBoldItalic text-white">
-                  Email adress*
+                  {t('Email_adress')}*
                 </h2>
               </div>
               <div>
-                <h2 className="text-white text-2xl">Menu</h2>
-                <h3 className="text-white text-2xl w-[100px]">
-                  Edit My Profile
+                <h2 className="text-white text-2xl">{t('navitemthree')}</h2>
+                <h3 className="text-white text-2xl w-[auto]">
+                  {t('edit_profile')}
                 </h3>
               </div>
             </div>
             <div>
               <h1 className="text-3xl text-white font-WorkSansBold">
-                MY CHILDREN
+                {t('MY_CHILDREN')}
               </h1>
               <div className="flex justify-between py-8">
                 <div className="w-[400px] bg-[#12a3a8] p-8 flex flex-col justify-between  h-[180px]">
                   <div>
                     <h3 className="text-white font-WorkSansBoldItalic uppercase text-[18px]">
-                      NAME OF ADDED CHILD
+                      {t('NAME_OF_ADDED_CHILD')}
                     </h3>
                   </div>
                   <div className="flex  my-8 w-[100%]">
                     <button className="bg-[#fc221c] px-8 rounded-full font-bold   text-white p-2">
-                      ORDER FOR THIS CHILD
+                      {t('ORDER_FOR_THIS_CHILD')}
                     </button>
                   </div>
                 </div>

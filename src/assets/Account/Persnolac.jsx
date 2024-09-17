@@ -284,29 +284,29 @@ const Persnolac = () => {
           <div className="h-[100%] w-[80%] flex  flex-col justify-between py-12 m-auto">
             <div className="flex h-[100%] justify-between">
               <h1 className="font-WorkSansBoldItalic text-white text-4xl">
-                MY ACCOUNT
+                {t('MY_ACCOUNT')}
               </h1>
 
-              <h2 className="text-white text-2xl">Menu</h2>
+              <h2 className="text-white text-2xl">{t('Menu')}</h2>
             </div>
             <div className="flex justify-between">
               <div>
                 <h2 className="text-2xl font-WorkSansBoldItalic text-white">
-                  FULL NAME{" "}
+                  {t('FULL_NAME')}
                 </h2>
                 <h2 className="text-2xl font-WorkSansBoldItalic text-white">
-                  Adress*
+                  {t('Adress')}*
                 </h2>
                 <h2 className="text-2xl font-WorkSansBoldItalic text-white">
-                  Daytime phone*
+                  {t('DaytimePhone')}*
                 </h2>
                 <h2 className="text-2xl font-WorkSansBoldItalic text-white">
-                  Email adress*
+                  {t('Email_address')}*
                 </h2>
               </div>
               <div>
-                <h3 className="text-white text-2xl w-[100px]">
-                  Edit My Profile
+                <h3 className="text-white text-2xl ">
+                  {t('edit_profile')}
                 </h3>
               </div>
             </div>

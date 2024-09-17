@@ -96,7 +96,26 @@
      "Password" :"Password",
      "Confirm_your_password" : "Confirm your password",
      "agreement" : "I agree to receive email alerts announcing the availability of a new menu.",
-     "SUBMIT":"SUBMIT"
+     "SUBMIT":"SUBMIT",
+     "MY_ACCOUNT" : "MY ACCOUNT",
+     "Menu" : "Menu",
+     "FULL_NAME" : "FULL NAME",
+     "Adress" : "Adress",
+     "edit_profile" : "Edit My Profile",
+     "CHILD_PROFILE" : "CHILD PROFILE",
+     "Group" : "Group",
+     "ALLERGIES" : "ALLERGIES",
+     "Peanuts" : "Peanuts/ Nuts",
+     "eggs" : "eggs",
+     "Soya" : "Soya",
+     "Sea_Food":"Sea Food",
+     "Sesame" : "Sesame",
+     "Lactose" :"Lactose",
+     "Email_adress" : "Email adress",
+     "MY_CHILDREN" : "MY CHILDREN",
+     "NAME_OF_ADDED_CHILD" :"NAME OF ADDED CHILD",
+     "ORDER_FOR_THIS_CHILD" :"ORDER FOR THIS CHILD"
+
     
  
 
